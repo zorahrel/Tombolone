@@ -1,0 +1,1220 @@
+html, body {
+	height: 100%;
+	width: 100%; 0 0;
+}
+
+body {	
+	padding: 4% 3% 4% 4%;
+	position: absolute;
+	background: #FFF url('../../lib/cornice.png') no-repeat;
+}
+
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.tab-wrapper {
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+
+.tab-wrapper .tab {
+	background: #FFF;
+	float: left;
+	width: 49%;
+	height: 33%;
+	margin-right: 1%;
+	margin-bottom: 0.4%;
+	border: 2px solid #0e204e;
+	background: #0e204e;
+}
+.tab-wrapper .tab .tile { 
+	float: left;
+	width: 20%;
+	height: 33.333%;
+	border: 2px solid #0e204e;
+	cursor: pointer;
+}
+
+.tab-wrapper .normale, .tab-wrapper .uscito, .tab-wrapper .appena, .tab-wrapper .appena-alt {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.tab-wrapper .normale { z-index: 0 }
+.tab-wrapper .appena { z-index: 10 }
+.tab-wrapper .appena-alt { z-index: 100 }
+.tab-wrapper .uscito { z-index: 1000 }
+
+.tab-wrapper .uscito, .tab-wrapper .appena, .tab-wrapper .appena-alt {
+	opacity: 0;
+}
+.tab-wrapper .tile > .animated {
+	opacity: 1;
+}
+
+.right-wrapper {
+	float: right;
+	width: 20%;
+	height: 100%;
+}
+
+.right-wrapper .tab {
+	height: 33%;
+	width: 100%;
+	margin: 2%;
+}
+
+.right-wrapper .tab .numero {
+	color: #FFF;
+	font-size: 56pt;
+	text-align: center;
+	line-height: 100%;
+}
+
+.right-wrapper .tab .numero span {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.right-wrapper .tab.penultimo-uscito {
+	padding: 10% 20%;
+}
+
+.right-wrapper .tab.penultimo-uscito > .numero {
+	height: 100%;
+	width: 100%;
+	background: #a81120;
+	line-height: 140px;
+}
+
+.right-wrapper .tab.appena-uscito {
+	padding: 0 15% 8%;
+}
+
+.right-wrapper .tab.appena-uscito > .numero {
+	height: 100%;
+	width: 100%;
+	background: #0e204e;
+	line-height: 170px;
+	font-size: 74pt;
+}
+
+.animated { display: block !important; }
+
+.right-wrapper .tab.logo {
+	background: url('../../lib/logo.png') center center no-repeat;
+	background-size: contain;
+}
+
+  /***********/
+ /* Normale */
+/***********/
+
+.tile-01 .normale {
+	background-image: url('../../lib/numeri/normale/01.png');
+}
+.tile-02 .normale {
+	background-image: url('../../lib/numeri/normale/02.png');
+}
+.tile-03 .normale {
+	background-image: url('../../lib/numeri/normale/03.png');
+}
+.tile-04 .normale {
+	background-image: url('../../lib/numeri/normale/04.png');
+}
+.tile-05 .normale {
+	background-image: url('../../lib/numeri/normale/05.png');
+}
+.tile-06 .normale {
+	background-image: url('../../lib/numeri/normale/06.png');
+}
+.tile-07 .normale {
+	background-image: url('../../lib/numeri/normale/07.png');
+}
+.tile-08 .normale {
+	background-image: url('../../lib/numeri/normale/08.png');
+}
+.tile-09 .normale {
+	background-image: url('../../lib/numeri/normale/09.png');
+}
+.tile-10 .normale {
+	background-image: url('../../lib/numeri/normale/10.png');
+}
+.tile-11 .normale {
+	background-image: url('../../lib/numeri/normale/11.png');
+}
+.tile-12 .normale {
+	background-image: url('../../lib/numeri/normale/12.png');
+}
+.tile-13 .normale {
+	background-image: url('../../lib/numeri/normale/13.png');
+}
+.tile-14 .normale {
+	background-image: url('../../lib/numeri/normale/14.png');
+}
+.tile-15 .normale {
+	background-image: url('../../lib/numeri/normale/15.png');
+}
+.tile-16 .normale {
+	background-image: url('../../lib/numeri/normale/16.png');
+}
+.tile-17 .normale {
+	background-image: url('../../lib/numeri/normale/17.png');
+}
+.tile-18 .normale {
+	background-image: url('../../lib/numeri/normale/18.png');
+}
+.tile-19 .normale {
+	background-image: url('../../lib/numeri/normale/19.png');
+}
+.tile-20 .normale {
+	background-image: url('../../lib/numeri/normale/20.png');
+}
+.tile-21 .normale {
+	background-image: url('../../lib/numeri/normale/21.png');
+}
+.tile-22 .normale {
+	background-image: url('../../lib/numeri/normale/22.png');
+}
+.tile-23 .normale {
+	background-image: url('../../lib/numeri/normale/23.png');
+}
+.tile-24 .normale {
+	background-image: url('../../lib/numeri/normale/24.png');
+}
+.tile-25 .normale {
+	background-image: url('../../lib/numeri/normale/25.png');
+}
+.tile-26 .normale {
+	background-image: url('../../lib/numeri/normale/26.png');
+}
+.tile-27 .normale {
+	background-image: url('../../lib/numeri/normale/27.png');
+}
+.tile-28 .normale {
+	background-image: url('../../lib/numeri/normale/28.png');
+}
+.tile-29 .normale {
+	background-image: url('../../lib/numeri/normale/29.png');
+}
+.tile-30 .normale {
+	background-image: url('../../lib/numeri/normale/30.png');
+}
+.tile-31 .normale {
+	background-image: url('../../lib/numeri/normale/31.png');
+}
+.tile-32 .normale {
+	background-image: url('../../lib/numeri/normale/32.png');
+}
+.tile-33 .normale {
+	background-image: url('../../lib/numeri/normale/33.png');
+}
+.tile-34 .normale {
+	background-image: url('../../lib/numeri/normale/34.png');
+}
+.tile-35 .normale {
+	background-image: url('../../lib/numeri/normale/35.png');
+}
+.tile-36 .normale {
+	background-image: url('../../lib/numeri/normale/36.png');
+}
+.tile-37 .normale {
+	background-image: url('../../lib/numeri/normale/37.png');
+}
+.tile-38 .normale {
+	background-image: url('../../lib/numeri/normale/38.png');
+}
+.tile-39 .normale {
+	background-image: url('../../lib/numeri/normale/39.png');
+}
+.tile-40 .normale {
+	background-image: url('../../lib/numeri/normale/40.png');
+}
+.tile-41 .normale {
+	background-image: url('../../lib/numeri/normale/41.png');
+}
+.tile-42 .normale {
+	background-image: url('../../lib/numeri/normale/42.png');
+}
+.tile-43 .normale {
+	background-image: url('../../lib/numeri/normale/43.png');
+}
+.tile-44 .normale {
+	background-image: url('../../lib/numeri/normale/44.png');
+}
+.tile-45 .normale {
+	background-image: url('../../lib/numeri/normale/45.png');
+}
+.tile-46 .normale {
+	background-image: url('../../lib/numeri/normale/46.png');
+}
+.tile-47 .normale {
+	background-image: url('../../lib/numeri/normale/47.png');
+}
+.tile-48 .normale {
+	background-image: url('../../lib/numeri/normale/48.png');
+}
+.tile-49 .normale {
+	background-image: url('../../lib/numeri/normale/49.png');
+}
+.tile-50 .normale {
+	background-image: url('../../lib/numeri/normale/50.png');
+}
+.tile-51 .normale {
+	background-image: url('../../lib/numeri/normale/51.png');
+}
+.tile-52 .normale {
+	background-image: url('../../lib/numeri/normale/52.png');
+}
+.tile-53 .normale {
+	background-image: url('../../lib/numeri/normale/53.png');
+}
+.tile-54 .normale {
+	background-image: url('../../lib/numeri/normale/54.png');
+}
+.tile-55 .normale {
+	background-image: url('../../lib/numeri/normale/55.png');
+}
+.tile-56 .normale {
+	background-image: url('../../lib/numeri/normale/56.png');
+}
+.tile-57 .normale {
+	background-image: url('../../lib/numeri/normale/57.png');
+}
+.tile-58 .normale {
+	background-image: url('../../lib/numeri/normale/58.png');
+}
+.tile-59 .normale {
+	background-image: url('../../lib/numeri/normale/59.png');
+}
+.tile-60 .normale {
+	background-image: url('../../lib/numeri/normale/60.png');
+}
+.tile-61 .normale {
+	background-image: url('../../lib/numeri/normale/61.png');
+}
+.tile-62 .normale {
+	background-image: url('../../lib/numeri/normale/62.png');
+}
+.tile-63 .normale {
+	background-image: url('../../lib/numeri/normale/63.png');
+}
+.tile-64 .normale {
+	background-image: url('../../lib/numeri/normale/64.png');
+}
+.tile-65 .normale {
+	background-image: url('../../lib/numeri/normale/65.png');
+}
+.tile-66 .normale {
+	background-image: url('../../lib/numeri/normale/66.png');
+}
+.tile-67 .normale {
+	background-image: url('../../lib/numeri/normale/67.png');
+}
+.tile-68 .normale {
+	background-image: url('../../lib/numeri/normale/68.png');
+}
+.tile-69 .normale {
+	background-image: url('../../lib/numeri/normale/69.png');
+}
+.tile-70 .normale {
+	background-image: url('../../lib/numeri/normale/70.png');
+}
+.tile-71 .normale {
+	background-image: url('../../lib/numeri/normale/71.png');
+}
+.tile-72 .normale {
+	background-image: url('../../lib/numeri/normale/72.png');
+}
+.tile-73 .normale {
+	background-image: url('../../lib/numeri/normale/73.png');
+}
+.tile-74 .normale {
+	background-image: url('../../lib/numeri/normale/74.png');
+}
+.tile-75 .normale {
+	background-image: url('../../lib/numeri/normale/75.png');
+}
+.tile-76 .normale {
+	background-image: url('../../lib/numeri/normale/76.png');
+}
+.tile-77 .normale {
+	background-image: url('../../lib/numeri/normale/77.png');
+}
+.tile-78 .normale {
+	background-image: url('../../lib/numeri/normale/78.png');
+}
+.tile-79 .normale {
+	background-image: url('../../lib/numeri/normale/79.png');
+}
+.tile-80 .normale {
+	background-image: url('../../lib/numeri/normale/80.png');
+}
+.tile-81 .normale {
+	background-image: url('../../lib/numeri/normale/81.png');
+}
+.tile-82 .normale {
+	background-image: url('../../lib/numeri/normale/82.png');
+}
+.tile-83 .normale {
+	background-image: url('../../lib/numeri/normale/83.png');
+}
+.tile-84 .normale {
+	background-image: url('../../lib/numeri/normale/84.png');
+}
+.tile-85 .normale {
+	background-image: url('../../lib/numeri/normale/85.png');
+}
+.tile-86 .normale {
+	background-image: url('../../lib/numeri/normale/86.png');
+}
+.tile-87 .normale {
+	background-image: url('../../lib/numeri/normale/87.png');
+}
+.tile-88 .normale {
+	background-image: url('../../lib/numeri/normale/88.png');
+}
+.tile-89 .normale {
+	background-image: url('../../lib/numeri/normale/89.png');
+}
+.tile-90 .normale{
+	background-image: url('../../lib/numeri/normale/90.png');
+}
+
+  /**********/
+ /* Uscito */
+/**********/
+
+.tile-01 .uscito {
+	background-image: url('../../lib/numeri/uscito/01.png');
+}
+.tile-02 .uscito {
+	background-image: url('../../lib/numeri/uscito/02.png');
+}
+.tile-03 .uscito {
+	background-image: url('../../lib/numeri/uscito/03.png');
+}
+.tile-04 .uscito {
+	background-image: url('../../lib/numeri/uscito/04.png');
+}
+.tile-05 .uscito {
+	background-image: url('../../lib/numeri/uscito/05.png');
+}
+.tile-06 .uscito {
+	background-image: url('../../lib/numeri/uscito/06.png');
+}
+.tile-07 .uscito {
+	background-image: url('../../lib/numeri/uscito/07.png');
+}
+.tile-08 .uscito {
+	background-image: url('../../lib/numeri/uscito/08.png');
+}
+.tile-09 .uscito {
+	background-image: url('../../lib/numeri/uscito/09.png');
+}
+.tile-10 .uscito {
+	background-image: url('../../lib/numeri/uscito/10.png');
+}
+.tile-11 .uscito {
+	background-image: url('../../lib/numeri/uscito/11.png');
+}
+.tile-12 .uscito {
+	background-image: url('../../lib/numeri/uscito/12.png');
+}
+.tile-13 .uscito {
+	background-image: url('../../lib/numeri/uscito/13.png');
+}
+.tile-14 .uscito {
+	background-image: url('../../lib/numeri/uscito/14.png');
+}
+.tile-15 .uscito {
+	background-image: url('../../lib/numeri/uscito/15.png');
+}
+.tile-16 .uscito {
+	background-image: url('../../lib/numeri/uscito/16.png');
+}
+.tile-17 .uscito {
+	background-image: url('../../lib/numeri/uscito/17.png');
+}
+.tile-18 .uscito {
+	background-image: url('../../lib/numeri/uscito/18.png');
+}
+.tile-19 .uscito {
+	background-image: url('../../lib/numeri/uscito/19.png');
+}
+.tile-20 .uscito {
+	background-image: url('../../lib/numeri/uscito/20.png');
+}
+.tile-21 .uscito {
+	background-image: url('../../lib/numeri/uscito/21.png');
+}
+.tile-22 .uscito {
+	background-image: url('../../lib/numeri/uscito/22.png');
+}
+.tile-23 .uscito {
+	background-image: url('../../lib/numeri/uscito/23.png');
+}
+.tile-24 .uscito {
+	background-image: url('../../lib/numeri/uscito/24.png');
+}
+.tile-25 .uscito {
+	background-image: url('../../lib/numeri/uscito/25.png');
+}
+.tile-26 .uscito {
+	background-image: url('../../lib/numeri/uscito/26.png');
+}
+.tile-27 .uscito {
+	background-image: url('../../lib/numeri/uscito/27.png');
+}
+.tile-28 .uscito {
+	background-image: url('../../lib/numeri/uscito/28.png');
+}
+.tile-29 .uscito {
+	background-image: url('../../lib/numeri/uscito/29.png');
+}
+.tile-30 .uscito {
+	background-image: url('../../lib/numeri/uscito/30.png');
+}
+.tile-31 .uscito {
+	background-image: url('../../lib/numeri/uscito/31.png');
+}
+.tile-32 .uscito {
+	background-image: url('../../lib/numeri/uscito/32.png');
+}
+.tile-33 .uscito {
+	background-image: url('../../lib/numeri/uscito/33.png');
+}
+.tile-34 .uscito {
+	background-image: url('../../lib/numeri/uscito/34.png');
+}
+.tile-35 .uscito {
+	background-image: url('../../lib/numeri/uscito/35.png');
+}
+.tile-36 .uscito {
+	background-image: url('../../lib/numeri/uscito/36.png');
+}
+.tile-37 .uscito {
+	background-image: url('../../lib/numeri/uscito/37.png');
+}
+.tile-38 .uscito {
+	background-image: url('../../lib/numeri/uscito/38.png');
+}
+.tile-39 .uscito {
+	background-image: url('../../lib/numeri/uscito/39.png');
+}
+.tile-40 .uscito {
+	background-image: url('../../lib/numeri/uscito/40.png');
+}
+.tile-41 .uscito {
+	background-image: url('../../lib/numeri/uscito/41.png');
+}
+.tile-42 .uscito {
+	background-image: url('../../lib/numeri/uscito/42.png');
+}
+.tile-43 .uscito {
+	background-image: url('../../lib/numeri/uscito/43.png');
+}
+.tile-44 .uscito {
+	background-image: url('../../lib/numeri/uscito/44.png');
+}
+.tile-45 .uscito {
+	background-image: url('../../lib/numeri/uscito/45.png');
+}
+.tile-46 .uscito {
+	background-image: url('../../lib/numeri/uscito/46.png');
+}
+.tile-47 .uscito {
+	background-image: url('../../lib/numeri/uscito/47.png');
+}
+.tile-48 .uscito {
+	background-image: url('../../lib/numeri/uscito/48.png');
+}
+.tile-49 .uscito {
+	background-image: url('../../lib/numeri/uscito/49.png');
+}
+.tile-50 .uscito {
+	background-image: url('../../lib/numeri/uscito/50.png');
+}
+.tile-51 .uscito {
+	background-image: url('../../lib/numeri/uscito/51.png');
+}
+.tile-52 .uscito {
+	background-image: url('../../lib/numeri/uscito/52.png');
+}
+.tile-53 .uscito {
+	background-image: url('../../lib/numeri/uscito/53.png');
+}
+.tile-54 .uscito {
+	background-image: url('../../lib/numeri/uscito/54.png');
+}
+.tile-55 .uscito {
+	background-image: url('../../lib/numeri/uscito/55.png');
+}
+.tile-56 .uscito {
+	background-image: url('../../lib/numeri/uscito/56.png');
+}
+.tile-57 .uscito {
+	background-image: url('../../lib/numeri/uscito/57.png');
+}
+.tile-58 .uscito {
+	background-image: url('../../lib/numeri/uscito/58.png');
+}
+.tile-59 .uscito {
+	background-image: url('../../lib/numeri/uscito/59.png');
+}
+.tile-60 .uscito {
+	background-image: url('../../lib/numeri/uscito/60.png');
+}
+.tile-61 .uscito {
+	background-image: url('../../lib/numeri/uscito/61.png');
+}
+.tile-62 .uscito {
+	background-image: url('../../lib/numeri/uscito/62.png');
+}
+.tile-63 .uscito {
+	background-image: url('../../lib/numeri/uscito/63.png');
+}
+.tile-64 .uscito {
+	background-image: url('../../lib/numeri/uscito/64.png');
+}
+.tile-65 .uscito {
+	background-image: url('../../lib/numeri/uscito/65.png');
+}
+.tile-66 .uscito {
+	background-image: url('../../lib/numeri/uscito/66.png');
+}
+.tile-67 .uscito {
+	background-image: url('../../lib/numeri/uscito/67.png');
+}
+.tile-68 .uscito {
+	background-image: url('../../lib/numeri/uscito/68.png');
+}
+.tile-69 .uscito {
+	background-image: url('../../lib/numeri/uscito/69.png');
+}
+.tile-70 .uscito {
+	background-image: url('../../lib/numeri/uscito/70.png');
+}
+.tile-71 .uscito {
+	background-image: url('../../lib/numeri/uscito/71.png');
+}
+.tile-72 .uscito {
+	background-image: url('../../lib/numeri/uscito/72.png');
+}
+.tile-73 .uscito {
+	background-image: url('../../lib/numeri/uscito/73.png');
+}
+.tile-74 .uscito {
+	background-image: url('../../lib/numeri/uscito/74.png');
+}
+.tile-75 .uscito {
+	background-image: url('../../lib/numeri/uscito/75.png');
+}
+.tile-76 .uscito {
+	background-image: url('../../lib/numeri/uscito/76.png');
+}
+.tile-77 .uscito {
+	background-image: url('../../lib/numeri/uscito/77.png');
+}
+.tile-78 .uscito {
+	background-image: url('../../lib/numeri/uscito/78.png');
+}
+.tile-79 .uscito {
+	background-image: url('../../lib/numeri/uscito/79.png');
+}
+.tile-80 .uscito {
+	background-image: url('../../lib/numeri/uscito/80.png');
+}
+.tile-81 .uscito {
+	background-image: url('../../lib/numeri/uscito/81.png');
+}
+.tile-82 .uscito {
+	background-image: url('../../lib/numeri/uscito/82.png');
+}
+.tile-83 .uscito {
+	background-image: url('../../lib/numeri/uscito/83.png');
+}
+.tile-84 .uscito {
+	background-image: url('../../lib/numeri/uscito/84.png');
+}
+.tile-85 .uscito {
+	background-image: url('../../lib/numeri/uscito/85.png');
+}
+.tile-86 .uscito {
+	background-image: url('../../lib/numeri/uscito/86.png');
+}
+.tile-87 .uscito {
+	background-image: url('../../lib/numeri/uscito/87.png');
+}
+.tile-88 .uscito {
+	background-image: url('../../lib/numeri/uscito/88.png');
+}
+.tile-89 .uscito {
+	background-image: url('../../lib/numeri/uscito/89.png');
+}
+.tile-90 .uscito{
+	background-image: url('../../lib/numeri/uscito/90.png');
+}
+
+  /**********/
+ /* Appena */
+/**********/
+
+.tile-01 .appena {
+	background-image: url('../../lib/numeri/appena/01.png');
+}
+.tile-02 .appena {
+	background-image: url('../../lib/numeri/appena/02.png');
+}
+.tile-03 .appena {
+	background-image: url('../../lib/numeri/appena/03.png');
+}
+.tile-04 .appena {
+	background-image: url('../../lib/numeri/appena/04.png');
+}
+.tile-05 .appena {
+	background-image: url('../../lib/numeri/appena/05.png');
+}
+.tile-06 .appena {
+	background-image: url('../../lib/numeri/appena/06.png');
+}
+.tile-07 .appena {
+	background-image: url('../../lib/numeri/appena/07.png');
+}
+.tile-08 .appena {
+	background-image: url('../../lib/numeri/appena/08.png');
+}
+.tile-09 .appena {
+	background-image: url('../../lib/numeri/appena/09.png');
+}
+.tile-10 .appena {
+	background-image: url('../../lib/numeri/appena/10.png');
+}
+.tile-11 .appena {
+	background-image: url('../../lib/numeri/appena/11.png');
+}
+.tile-12 .appena {
+	background-image: url('../../lib/numeri/appena/12.png');
+}
+.tile-13 .appena {
+	background-image: url('../../lib/numeri/appena/13.png');
+}
+.tile-14 .appena {
+	background-image: url('../../lib/numeri/appena/14.png');
+}
+.tile-15 .appena {
+	background-image: url('../../lib/numeri/appena/15.png');
+}
+.tile-16 .appena {
+	background-image: url('../../lib/numeri/appena/16.png');
+}
+.tile-17 .appena {
+	background-image: url('../../lib/numeri/appena/17.png');
+}
+.tile-18 .appena {
+	background-image: url('../../lib/numeri/appena/18.png');
+}
+.tile-19 .appena {
+	background-image: url('../../lib/numeri/appena/19.png');
+}
+.tile-20 .appena {
+	background-image: url('../../lib/numeri/appena/20.png');
+}
+.tile-21 .appena {
+	background-image: url('../../lib/numeri/appena/21.png');
+}
+.tile-22 .appena {
+	background-image: url('../../lib/numeri/appena/22.png');
+}
+.tile-23 .appena {
+	background-image: url('../../lib/numeri/appena/23.png');
+}
+.tile-24 .appena {
+	background-image: url('../../lib/numeri/appena/24.png');
+}
+.tile-25 .appena {
+	background-image: url('../../lib/numeri/appena/25.png');
+}
+.tile-26 .appena {
+	background-image: url('../../lib/numeri/appena/26.png');
+}
+.tile-27 .appena {
+	background-image: url('../../lib/numeri/appena/27.png');
+}
+.tile-28 .appena {
+	background-image: url('../../lib/numeri/appena/28.png');
+}
+.tile-29 .appena {
+	background-image: url('../../lib/numeri/appena/29.png');
+}
+.tile-30 .appena {
+	background-image: url('../../lib/numeri/appena/30.png');
+}
+.tile-31 .appena {
+	background-image: url('../../lib/numeri/appena/31.png');
+}
+.tile-32 .appena {
+	background-image: url('../../lib/numeri/appena/32.png');
+}
+.tile-33 .appena {
+	background-image: url('../../lib/numeri/appena/33.png');
+}
+.tile-34 .appena {
+	background-image: url('../../lib/numeri/appena/34.png');
+}
+.tile-35 .appena {
+	background-image: url('../../lib/numeri/appena/35.png');
+}
+.tile-36 .appena {
+	background-image: url('../../lib/numeri/appena/36.png');
+}
+.tile-37 .appena {
+	background-image: url('../../lib/numeri/appena/37.png');
+}
+.tile-38 .appena {
+	background-image: url('../../lib/numeri/appena/38.png');
+}
+.tile-39 .appena {
+	background-image: url('../../lib/numeri/appena/39.png');
+}
+.tile-40 .appena {
+	background-image: url('../../lib/numeri/appena/40.png');
+}
+.tile-41 .appena {
+	background-image: url('../../lib/numeri/appena/41.png');
+}
+.tile-42 .appena {
+	background-image: url('../../lib/numeri/appena/42.png');
+}
+.tile-43 .appena {
+	background-image: url('../../lib/numeri/appena/43.png');
+}
+.tile-44 .appena {
+	background-image: url('../../lib/numeri/appena/44.png');
+}
+.tile-45 .appena {
+	background-image: url('../../lib/numeri/appena/45.png');
+}
+.tile-46 .appena {
+	background-image: url('../../lib/numeri/appena/46.png');
+}
+.tile-47 .appena {
+	background-image: url('../../lib/numeri/appena/47.png');
+}
+.tile-48 .appena {
+	background-image: url('../../lib/numeri/appena/48.png');
+}
+.tile-49 .appena {
+	background-image: url('../../lib/numeri/appena/49.png');
+}
+.tile-50 .appena {
+	background-image: url('../../lib/numeri/appena/50.png');
+}
+.tile-51 .appena {
+	background-image: url('../../lib/numeri/appena/51.png');
+}
+.tile-52 .appena {
+	background-image: url('../../lib/numeri/appena/52.png');
+}
+.tile-53 .appena {
+	background-image: url('../../lib/numeri/appena/53.png');
+}
+.tile-54 .appena {
+	background-image: url('../../lib/numeri/appena/54.png');
+}
+.tile-55 .appena {
+	background-image: url('../../lib/numeri/appena/55.png');
+}
+.tile-56 .appena {
+	background-image: url('../../lib/numeri/appena/56.png');
+}
+.tile-57 .appena {
+	background-image: url('../../lib/numeri/appena/57.png');
+}
+.tile-58 .appena {
+	background-image: url('../../lib/numeri/appena/58.png');
+}
+.tile-59 .appena {
+	background-image: url('../../lib/numeri/appena/59.png');
+}
+.tile-60 .appena {
+	background-image: url('../../lib/numeri/appena/60.png');
+}
+.tile-61 .appena {
+	background-image: url('../../lib/numeri/appena/61.png');
+}
+.tile-62 .appena {
+	background-image: url('../../lib/numeri/appena/62.png');
+}
+.tile-63 .appena {
+	background-image: url('../../lib/numeri/appena/63.png');
+}
+.tile-64 .appena {
+	background-image: url('../../lib/numeri/appena/64.png');
+}
+.tile-65 .appena {
+	background-image: url('../../lib/numeri/appena/65.png');
+}
+.tile-66 .appena {
+	background-image: url('../../lib/numeri/appena/66.png');
+}
+.tile-67 .appena {
+	background-image: url('../../lib/numeri/appena/67.png');
+}
+.tile-68 .appena {
+	background-image: url('../../lib/numeri/appena/68.png');
+}
+.tile-69 .appena {
+	background-image: url('../../lib/numeri/appena/69.png');
+}
+.tile-70 .appena {
+	background-image: url('../../lib/numeri/appena/70.png');
+}
+.tile-71 .appena {
+	background-image: url('../../lib/numeri/appena/71.png');
+}
+.tile-72 .appena {
+	background-image: url('../../lib/numeri/appena/72.png');
+}
+.tile-73 .appena {
+	background-image: url('../../lib/numeri/appena/73.png');
+}
+.tile-74 .appena {
+	background-image: url('../../lib/numeri/appena/74.png');
+}
+.tile-75 .appena {
+	background-image: url('../../lib/numeri/appena/75.png');
+}
+.tile-76 .appena {
+	background-image: url('../../lib/numeri/appena/76.png');
+}
+.tile-77 .appena {
+	background-image: url('../../lib/numeri/appena/77.png');
+}
+.tile-78 .appena {
+	background-image: url('../../lib/numeri/appena/78.png');
+}
+.tile-79 .appena {
+	background-image: url('../../lib/numeri/appena/79.png');
+}
+.tile-80 .appena {
+	background-image: url('../../lib/numeri/appena/80.png');
+}
+.tile-81 .appena {
+	background-image: url('../../lib/numeri/appena/81.png');
+}
+.tile-82 .appena {
+	background-image: url('../../lib/numeri/appena/82.png');
+}
+.tile-83 .appena {
+	background-image: url('../../lib/numeri/appena/83.png');
+}
+.tile-84 .appena {
+	background-image: url('../../lib/numeri/appena/84.png');
+}
+.tile-85 .appena {
+	background-image: url('../../lib/numeri/appena/85.png');
+}
+.tile-86 .appena {
+	background-image: url('../../lib/numeri/appena/86.png');
+}
+.tile-87 .appena {
+	background-image: url('../../lib/numeri/appena/87.png');
+}
+.tile-88 .appena {
+	background-image: url('../../lib/numeri/appena/88.png');
+}
+.tile-89 .appena {
+	background-image: url('../../lib/numeri/appena/89.png');
+}
+.tile-90 .appena{
+	background-image: url('../../lib/numeri/appena/90.png');
+}
+
+  /**************/
+ /* Appena-alt */
+/**************/
+
+.tile-01 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/01.png');
+}
+.tile-02 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/02.png');
+}
+.tile-03 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/03.png');
+}
+.tile-04 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/04.png');
+}
+.tile-05 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/05.png');
+}
+.tile-06 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/06.png');
+}
+.tile-07 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/07.png');
+}
+.tile-08 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/08.png');
+}
+.tile-09 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/09.png');
+}
+.tile-10 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/10.png');
+}
+.tile-11 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/11.png');
+}
+.tile-12 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/12.png');
+}
+.tile-13 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/13.png');
+}
+.tile-14 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/14.png');
+}
+.tile-15 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/15.png');
+}
+.tile-16 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/16.png');
+}
+.tile-17 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/17.png');
+}
+.tile-18 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/18.png');
+}
+.tile-19 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/19.png');
+}
+.tile-20 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/20.png');
+}
+.tile-21 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/21.png');
+}
+.tile-22 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/22.png');
+}
+.tile-23 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/23.png');
+}
+.tile-24 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/24.png');
+}
+.tile-25 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/25.png');
+}
+.tile-26 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/26.png');
+}
+.tile-27 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/27.png');
+}
+.tile-28 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/28.png');
+}
+.tile-29 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/29.png');
+}
+.tile-30 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/30.png');
+}
+.tile-31 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/31.png');
+}
+.tile-32 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/32.png');
+}
+.tile-33 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/33.png');
+}
+.tile-34 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/34.png');
+}
+.tile-35 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/35.png');
+}
+.tile-36 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/36.png');
+}
+.tile-37 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/37.png');
+}
+.tile-38 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/38.png');
+}
+.tile-39 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/39.png');
+}
+.tile-40 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/40.png');
+}
+.tile-41 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/41.png');
+}
+.tile-42 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/42.png');
+}
+.tile-43 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/43.png');
+}
+.tile-44 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/44.png');
+}
+.tile-45 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/45.png');
+}
+.tile-46 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/46.png');
+}
+.tile-47 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/47.png');
+}
+.tile-48 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/48.png');
+}
+.tile-49 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/49.png');
+}
+.tile-50 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/50.png');
+}
+.tile-51 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/51.png');
+}
+.tile-52 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/52.png');
+}
+.tile-53 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/53.png');
+}
+.tile-54 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/54.png');
+}
+.tile-55 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/55.png');
+}
+.tile-56 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/56.png');
+}
+.tile-57 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/57.png');
+}
+.tile-58 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/58.png');
+}
+.tile-59 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/59.png');
+}
+.tile-60 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/60.png');
+}
+.tile-61 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/61.png');
+}
+.tile-62 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/62.png');
+}
+.tile-63 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/63.png');
+}
+.tile-64 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/64.png');
+}
+.tile-65 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/65.png');
+}
+.tile-66 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/66.png');
+}
+.tile-67 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/67.png');
+}
+.tile-68 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/68.png');
+}
+.tile-69 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/69.png');
+}
+.tile-70 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/70.png');
+}
+.tile-71 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/71.png');
+}
+.tile-72 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/72.png');
+}
+.tile-73 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/73.png');
+}
+.tile-74 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/74.png');
+}
+.tile-75 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/75.png');
+}
+.tile-76 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/76.png');
+}
+.tile-77 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/77.png');
+}
+.tile-78 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/78.png');
+}
+.tile-79 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/79.png');
+}
+.tile-80 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/80.png');
+}
+.tile-81 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/81.png');
+}
+.tile-82 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/82.png');
+}
+.tile-83 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/83.png');
+}
+.tile-84 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/84.png');
+}
+.tile-85 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/85.png');
+}
+.tile-86 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/86.png');
+}
+.tile-87 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/87.png');
+}
+.tile-88 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/88.png');
+}
+.tile-89 .appena-alt {
+	background-image: url('../../lib/numeri/appena-alt/89.png');
+}
+.tile-90 .appena-alt{
+	background-image: url('../../lib/numeri/appena-alt/90.png');
+}

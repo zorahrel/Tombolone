@@ -1,0 +1,25 @@
+{
+  "name": "tombolone",
+  "version": "1.0.0",
+  "description": "Tombolone per campagna di beneficenza Antonio Amato",
+  "main": "tombolone.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorahrel/tombolone.git"
+  },
+  "keywords": [
+    "tombolone",
+    "antonioamato",
+    "javascript",
+    "jquery"
+  ],
+  "author": "Zorahrel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zorahrel/tombolone/issues"
+  },
+  "homepage": "https://github.com/zorahrel/tombolone#readme"
+}
